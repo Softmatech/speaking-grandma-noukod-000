@@ -14,11 +14,11 @@
 
 
 def speak_to_grandma(phrase)
-  response = ""
+  @response = ""
     if phrase.upcase == "I LOVE YOU GRANDMA!"
-      response = "I LOVE YOU TOO PUMPKIN!"
+      @response = "I LOVE YOU TOO PUMPKIN!"
     elsif !phrase.upcase
-      response = "HUH?! SPEAK UP, SONNY!"
+      @response = "HUH?! SPEAK UP, SONNY!"
 
     end
     return response
